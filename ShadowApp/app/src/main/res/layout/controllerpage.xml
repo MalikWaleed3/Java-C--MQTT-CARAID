@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cut_card_background">
+
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/bangers"
+        android:text="Controller Page"
+        android:textColor="@color/white"
+        android:textSize="38sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.845"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/left"
+        android:layout_width="116dp"
+        android:layout_height="104dp"
+        android:background="@drawable/bt_command"
+        android:fontFamily="@font/aldrich"
+        android:onClick="left"
+        android:rotationY="0"
+        android:text="@string/leftArrow"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:backgroundTint="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.81"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1sp" />
+
+    <Button
+        android:id="@+id/forward"
+        android:layout_width="360dp"
+        android:layout_height="96dp"
+        android:background="@drawable/bt_command"
+        android:fontFamily="@font/aldrich"
+        android:onClick="forward"
+        android:rotationX="0"
+        android:shadowColor="#FFFFFF"
+        android:text="@string/upArrow"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:backgroundTint="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1sp" />
+
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="115dp"
+        android:layout_height="102dp"
+        android:background="@drawable/bt_command"
+        android:fontFamily="@font/aldrich"
+        android:onClick="right"
+        android:rotationY="0"
+        android:text="@string/rightArrows"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:backgroundTint="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1sp" />
+
+    <Button
+        android:id="@+id/reverse"
+        android:layout_width="360dp"
+        android:layout_height="91dp"
+        android:background="@drawable/bt_command"
+        android:fontFamily="@font/aldrich"
+        android:onClick="reverse"
+        android:rotationX="0"
+        android:text="@string/downArrow"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:backgroundTint="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.965"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1sp" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="109dp"
+        android:layout_height="102dp"
+        android:background="@drawable/bt_command"
+        android:fontFamily="@font/aldrich"
+        android:onClick="stop"
+        android:rotationY="0"
+        android:text="@string/stopbutton"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:backgroundTint="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/bt_command"
+        android:fontFamily="@font/aldrich"
+        android:onClick="returnHome"
+        android:text="@string/home"
+        android:textSize="40sp"
+        app:backgroundTint="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="387dp"
+        android:layout_height="293dp"
+        android:contentDescription="@string/caroverlook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.231" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

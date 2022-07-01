@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cut_card_background"
+
+    tools:context=".VoiceCommand">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="208dp"
+        android:layout_height="177dp"
+        android:background="@drawable/gradient"
+        android:contentDescription="@string/mic"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.868"
+        app:srcCompat="@android:drawable/ic_btn_speak_now"
+        tools:srcCompat="@android:drawable/ic_btn_speak_now" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/bangers"
+        android:text="@string/voice_commands"
+        android:textColor="@color/white"
+        android:textSize="38sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="88dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/bt_command"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/home"
+        android:textSize="40sp"
+        app:backgroundTint="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="379dp"
+        android:layout_height="337dp"
+        android:contentDescription="@string/caroverlook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

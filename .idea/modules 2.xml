@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidApp/androidApp.iml" filepath="$PROJECT_DIR$/androidApp/androidApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShadowApp/app/app.iml" filepath="$PROJECT_DIR$/ShadowApp/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShadowApp/build/build.iml" filepath="$PROJECT_DIR$/ShadowApp/build/build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/group-15.iml" filepath="$PROJECT_DIR$/.idea/group-15.iml" />
+    </modules>
+  </component>
+</project>

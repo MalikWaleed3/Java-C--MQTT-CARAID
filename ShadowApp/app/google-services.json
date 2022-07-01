@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "581777236830",
+    "project_id": "shadowapp-668b4",
+    "storage_bucket": "shadowapp-668b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581777236830:android:a4787d959924a63fe165cf",
+        "android_client_info": {
+          "package_name": "com.example.shadowapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581777236830-b9ef32r0vpt1leanfdqa8a9un00hdohe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1If6cUYchnoCyFooX5eX01aRXXpncXgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581777236830-b9ef32r0vpt1leanfdqa8a9un00hdohe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
